@@ -154,8 +154,10 @@ name = "c2rust-analyze"
 version = "0.17.0"
 dependencies = [
  "assert_matches",
+ "bincode",
  "bitflags",
  "c2rust-build-paths",
+ "c2rust-pdg",
  "clap 4.1.9",
  "env_logger",
  "indexmap",
@@ -163,6 +165,7 @@ dependencies = [
  "polonius-engine",
  "print_bytes",
  "rustc-hash",
+ "serde",
  "shlex",
 ]
 
